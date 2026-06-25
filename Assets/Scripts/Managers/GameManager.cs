@@ -44,21 +44,21 @@ public class GameManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        // Nếu game đã kết thúc (thắng hoặc thua trước đó rồi) thì không đếm nữa
-        if (IsGameOver) return; 
+    // void Update()
+    // {
+    //     // Nếu game đã kết thúc (thắng hoặc thua trước đó rồi) thì không đếm nữa
+    //     if (IsGameOver) return; 
 
-        // Mỗi giây trôi qua, trừ bớt thời gian vào biến đếm ngược
-        survivalTimer -= Time.deltaTime;
-        // cam.Move();
-        // // KHI THỜI GIAN ĐẾM NGƯỢC VỀ 0 HOẶC NHỎ HƠN 0
-        // if (survivalTimer <= 0)
-        // {
-        //     // 🎯 CHÍNH LÀ Ở ĐÂY: Sự kiện Thắng được bắt và kích hoạt!
-        //     Victory(); 
-        // }
-    }
+    //     // Mỗi giây trôi qua, trừ bớt thời gian vào biến đếm ngược
+    //     survivalTimer -= Time.deltaTime;
+    //     // cam.Move();
+    //     // // KHI THỜI GIAN ĐẾM NGƯỢC VỀ 0 HOẶC NHỎ HƠN 0
+    //     // if (survivalTimer <= 0)
+    //     // {
+    //     //     // 🎯 CHÍNH LÀ Ở ĐÂY: Sự kiện Thắng được bắt và kích hoạt!
+    //     //     Victory(); 
+    //     // }
+    // }
 
     public void Hello()
     {
